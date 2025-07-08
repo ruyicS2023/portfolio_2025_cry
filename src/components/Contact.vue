@@ -7,7 +7,7 @@
         >LinkedIn</a
       >
       |
-      <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank"
+      <a href="https://github.com/ruyicS2023" target="_blank"
         >GitHub</a
       >
     </p>

@@ -2,9 +2,9 @@
   <section id="about" class="section">
     <h2>About Me</h2>
     <p>
-      Software engineer with a background in machine learning, backend, and
-      frontend development. Passionate about building impactful systems and
-      exploring new technologies.
+      Combining software development and data analytics, 
+      I'm passionate about building systems that deliver 
+      real business impact using Python, SQL, and modern web frameworks.
     </p>
   </section>
 </template>

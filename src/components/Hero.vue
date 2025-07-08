@@ -13,8 +13,9 @@
 
       <!-- Right: Info -->
       <div class="info">
-        <h1>I'm Ruyi Cai</h1>
-        <p>Software Engineer focused on ML, Backend, and Impactful Systems.</p>
+        <h1>Nice to meet you! I'm Ruyi Cai</h1>
+        <p class="hero-description"> 🇨🇳 → 🇺🇸 → 🇯🇵
+          Early professional passionate about AI, Big Data, and Software Engineering.</p>
         <a href="#projects" @click.prevent="scrollTo('projects')" class="cta">
           View Projects
         </a>
@@ -57,10 +58,14 @@ p {
   display: flex;
   align-items: center;
   gap: 2rem;
-  max-width: 960px;
+  max-width: 1200px;
   width: 100%;
 }
-
+.hero-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: rgb(72, 67, 67);
+}
 .greetings {
   text-align: right;
   font-size: 1.5rem;
@@ -77,7 +82,7 @@ p {
 
 .info {
   text-align: left;
-  max-width: 400px;
+  max-width: 600px;
   padding: 2rem;
   color: black;
 }
