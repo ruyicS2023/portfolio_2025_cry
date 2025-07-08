@@ -1,6 +1,6 @@
 <template>
   <section id="projects" class="section">
-    <h2>Projects</h2>
+    <h2>Project Experiences</h2>
     <p>Coming soon...</p>
   </section>
 </template>

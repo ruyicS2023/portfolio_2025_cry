@@ -1,11 +1,11 @@
 <template>
   <nav class="navbar">
     <div class="navbar-content">
-      <div class="logo">Ruyi Cai</div>
+      <div class="logo">Ruyi Cai - Portfoliio</div>
       <ul>
         <li><a href="#home" @click.prevent="scrollTo('home')">Home</a></li>
         <li><a href="#about" @click.prevent="scrollTo('about')">About</a></li>
-        <li><a href="#projects" @click.prevent="scrollTo('projects')">Projects</a></li>
+        <li><a href="#projects" @click.prevent="scrollTo('projects')">Project Experiences</a></li>
         <li><a href="#contact" @click.prevent="scrollTo('contact')">Contact</a></li>
       </ul>
     </div>
