@@ -16,9 +16,14 @@
         <h1>Nice to meet you! I'm Ruyi Cai</h1>
         <p class="hero-description"> 🇨🇳 → 🇺🇸 → 🇯🇵
           Early professional passionate about AI, Big Data, and Software Engineering.</p>
-        <a href="#projects" @click.prevent="scrollTo('projects')" class="cta">
-          View Projects
-        </a>
+          <a
+            href="https://drive.google.com/file/d/1k7ZT8xCzeIDCXn2fsjs2zCtRh2vfDTM8/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="cta"
+          >
+            View Resume
+          </a>
       </div>
     </div>
   </section>

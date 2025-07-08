@@ -1,14 +1,39 @@
 <template>
-  <section id="projects" class="section">
+  <section id="projects" class="projects-section">
     <h2>Project Experiences</h2>
-    <p>Coming soon...</p>
+    <div class="projects-grid">
+      <ProjectCard
+        imgSrc="/src/assets/promo.png"
+        title="Promo Master"
+        description="A centralized platform streamlining promo data and campaign workflows."
+      />
+      <ProjectCard
+        imgSrc="/src/assets/cluster.svg"
+        title="Retail Outlet Clustering"
+        description="Developed ML clustering models to segment 30,000+ retail outlets, informing trade strategies."
+      />
+
+      <ProjectCard
+        imgSrc="/src/assets/ride.gif"
+        title="CampuShare Ride-Sharing App"
+        description="Spring Boot microservices app using Kafka for scalable ride matching with optimized scheduling."
+      />
+
+      <ProjectCard
+        imgSrc="/src/assets/monitor.gif"
+        title="Distributed Monitoring Dashboard"
+        description="Real-time system monitoring dashboard using React and REST APIs for queue health and throughput."
+      />
+    </div>
   </section>
 </template>
 
+<script setup>
+import ProjectCard from '/src/components/ProjectCard.vue';
+</script>
+
 <style scoped>
-.section {
-  /* max-width: 600px; */
-  margin: 0 auto;
+.projects-section {
   padding: 4rem 1rem;
   text-align: center;
   background: rgba(255, 255, 255, 0.5);
@@ -17,6 +42,14 @@
 h2 {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 80%;
 }
 </style>
