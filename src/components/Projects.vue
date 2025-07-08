@@ -3,24 +3,24 @@
     <h2>Project Experiences</h2>
     <div class="projects-grid">
       <ProjectCard
-        imgSrc="/src/assets/promo.png"
+        imgSrc="/promo.png"
         title="Promo Master"
         description="A centralized platform streamlining promo data and campaign workflows."
       />
       <ProjectCard
-        imgSrc="/src/assets/cluster.svg"
+        imgSrc="/cluster.svg"
         title="Retail Outlet Clustering"
         description="Developed ML clustering models to segment 30,000+ retail outlets, informing trade strategies."
       />
 
       <ProjectCard
-        imgSrc="/src/assets/ride.gif"
+        imgSrc="/ride.gif"
         title="CampuShare Ride-Sharing App"
         description="Spring Boot microservices app using Kafka for scalable ride matching with optimized scheduling."
       />
 
       <ProjectCard
-        imgSrc="/src/assets/monitor.gif"
+        imgSrc="/monitor.gif"
         title="Distributed Monitoring Dashboard"
         description="Real-time system monitoring dashboard using React and REST APIs for queue health and throughput."
       />
@@ -29,7 +29,7 @@
 </template>
 
 <script setup>
-import ProjectCard from '/src/components/ProjectCard.vue';
+import ProjectCard from "/src/components/ProjectCard.vue";
 </script>
 
 <style scoped>

@@ -1,7 +1,6 @@
 <script setup>
-import EducationCard from '/src/components/EducationCard.vue';
+import EducationCard from "/src/components/EducationCard.vue";
 </script>
-
 
 <template>
   <section id="about" class="about-section">
@@ -10,30 +9,29 @@ import EducationCard from '/src/components/EducationCard.vue';
       <img src="/src/assets/profile.jpeg" alt="Ruyi Cai" class="profile-pic" />
       <div class="about-text">
         <p>
-          Combining software development and data analytics, I'm passionate about building systems that deliver real business impact using Python, SQL, and modern web frameworks.
+          Combining software development and data analytics, I'm passionate
+          about building systems that deliver real business impact using Python,
+          SQL, and modern web frameworks.
         </p>
         <small class="about-footnote">
-        *Not actually me in the photo. The penguin just seemed fitting.
+          *Not actually me in the photo. The penguin just seemed fitting.
         </small>
       </div>
     </div>
     <div class="edu-row">
       <EducationCard
-        imgSrc="/src/assets/cmu.svg"
+        imgSrc="/cmu.svg"
         title="Carnegie Mellon University"
         description="M.S. Software Engineering, 2023-2024"
       />
       <EducationCard
-        imgSrc="/src/assets/brandeis.png"
+        imgSrc="/brandeis.png"
         title="Brandeis University"
         description="B.S. Computer Science & International and Global Studies (Double Major), 2018-2022"
       />
     </div>
-
   </section>
 </template>
-
-
 
 <style scoped>
 .section {
