@@ -6,6 +6,9 @@
         <li><a href="#home" @click.prevent="navigate('home')">Home</a></li>
         <li><a href="#about" @click.prevent="navigate('about')">About</a></li>
         <li>
+          <a href="#skills" @click.prevent="navigate('skills')">Skills</a>
+        </li>
+        <li>
           <a href="#projects" @click.prevent="navigate('projects')">Projects</a>
         </li>
         <li>

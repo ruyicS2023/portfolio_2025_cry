@@ -4,6 +4,7 @@
     <Hero />
     <SocialLinks />
     <About />
+    <Skills />
     <Projects />
     <Contact />
   </div>
@@ -13,6 +14,7 @@
 import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
+import Skills from "./components/Skills.vue";
 import Projects from "./components/Projects.vue";
 import Contact from "./components/Contact.vue";
 import SocialLinks from "./components/SocialLinks.vue";
@@ -38,6 +40,11 @@ body::before {
   bottom: 0;
   background: rgba(255, 255, 255, 0.3);
   z-index: -1;
+}
+h2.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {

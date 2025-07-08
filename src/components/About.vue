@@ -4,7 +4,7 @@ import EducationCard from "/src/components/EducationCard.vue";
 
 <template>
   <section id="about" class="about-section">
-    <h2>About Me</h2>
+    <h2 class="section-title">About Me</h2>
     <div class="about-container">
       <img src="/src/assets/profile.jpeg" alt="Ruyi Cai" class="profile-pic" />
       <div class="about-text">

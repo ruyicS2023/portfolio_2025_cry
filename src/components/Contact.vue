@@ -1,15 +1,13 @@
 <template>
   <section id="contact" class="section">
-    <h2>Contact</h2>
+    <h2 class="section-title">Contact</h2>
     <p>Email: ruyic@alumni.cmu.edu</p>
     <p>
       <a href="https://www.linkedin.com/in/ruyi-cai" target="_blank"
         >LinkedIn</a
       >
       |
-      <a href="https://github.com/ruyicS2023" target="_blank"
-        >GitHub</a
-      >
+      <a href="https://github.com/ruyicS2023" target="_blank">GitHub</a>
     </p>
   </section>
 </template>

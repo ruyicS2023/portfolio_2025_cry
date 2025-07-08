@@ -1,6 +1,6 @@
 <template>
   <section id="projects" class="projects-section">
-    <h2>Project Experiences</h2>
+    <h2 class="section-title">Project Experiences</h2>
     <div class="projects-grid">
       <ProjectCard
         imgSrc="/promo.png"
