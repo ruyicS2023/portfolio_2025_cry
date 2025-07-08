@@ -14,22 +14,22 @@
       <!-- Right: Info -->
       <div class="info">
         <h1>Nice to meet you! I'm Ruyi Cai</h1>
-        <p class="hero-description"> 🇨🇳 → 🇺🇸 → 🇯🇵
-          Early professional passionate about AI, Big Data, and Software Engineering.</p>
-          <a
-            href="https://drive.google.com/file/d/1k7ZT8xCzeIDCXn2fsjs2zCtRh2vfDTM8/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="cta"
-          >
-            View Resume
-          </a>
+        <p class="hero-description">
+          🇨🇳 → 🇺🇸 → 🇯🇵 Early professional passionate about AI, Big Data, and
+          Software Engineering.
+        </p>
+        <a
+          href="https://drive.google.com/file/d/1k7ZT8xCzeIDCXn2fsjs2zCtRh2vfDTM8/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cta"
+        >
+          View Resume
+        </a>
       </div>
     </div>
   </section>
 </template>
-
-
 
 <script setup>
 function scrollTo(sectionId) {
@@ -120,6 +120,11 @@ p {
   .hero-container {
     flex-direction: column;
     text-align: center;
+    gap: 0;
+  }
+  .greetings,
+  .info {
+    padding: 0.5rem; /* or 0.5rem for tighter fit */
   }
   .divider {
     display: none;
@@ -130,6 +135,11 @@ p {
   .info {
     text-align: center;
   }
+  h1 {
+    margin: 0;
+  }
+  p {
+    margin-bottom: 0.5rem;
+  }
 }
-
 </style>

@@ -67,11 +67,17 @@ function navigate(sectionId) {
 .nav-links a {
   text-decoration: none;
   color: #333;
-  transition: color 0.3s;
+  transition: color 0.3s, background 0.3s;
+  border-radius: 0.25rem;
 }
 
 .nav-links a:hover {
   color: teal;
+  /* background: rgba(0, 128, 128, 0.1); */
+}
+
+.nav-links a:active {
+  background: rgba(0, 128, 128, 0.2);
 }
 
 .hamburger {
@@ -84,18 +90,39 @@ function navigate(sectionId) {
   .nav-links {
     position: absolute;
     top: 60px;
-    right: 0;
-    background: white;
+    right: 1rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 0.5rem;
     flex-direction: column;
     align-items: flex-start;
-    width: 200px;
+    width: 180px;
     padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
   .nav-links.open {
-    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-links li {
+    margin-bottom: 0.75rem;
+    width: 100%;
+  }
+
+  .nav-links li:last-child {
+    margin-bottom: 0;
+  }
+
+  .nav-links a {
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 1rem;
   }
 
   .hamburger {
